@@ -10,6 +10,9 @@ Robotic Felting Repair System: Python GUI for automated detection and repair of 
 - **Robot Integration:** Sends toolpaths to a UR robot arm for automated felting repair, with live visual feedback.
 - **User-Friendly GUI:** Built with PyQt5, featuring a dark theme, clear controls, and real-time status updates.
 
+  
+<img width="1919" height="1197" alt="Screenshot 2025-07-30 142529" src="https://github.com/user-attachments/assets/214b76d5-34d2-404c-b55c-334fa45d723b" />
+
 ## Robot Control
 
 Robot control is provided via the [Rope Robotics](https://github.com/martinbjerge/ur-interface) repository, using the `URBasic` Python library for communication with Universal Robots arms.
@@ -20,6 +23,9 @@ Robot control is provided via the [Rope Robotics](https://github.com/martinbjerg
 2. **Detect Holes:** Adjust vision parameters with sliders and detect holes in the felt.
 3. **Generate Tool Path:** Select repair shape and generate toolpaths for each hole.
 4. **Repair Hole:** Start the robotic repair process and monitor progress visually.
+
+   ![OIP](https://github.com/user-attachments/assets/b5054190-dd85-4dc7-acd7-8c3aea8e8549)
+
 
 ## Requirements
 
