@@ -12,7 +12,7 @@ Robotic Felting Repair System: Python GUI for automated detection and repair of 
 
 ## Robot Control
 
-Robot control is provided via the [Rope Robotics](https://github.com/rope-robotics/URBasic) repository, using the `URBasic` Python library for communication with Universal Robots arms.
+Robot control is provided via the [Rope Robotics](https://github.com/martinbjerge/ur-interface) repository, using the `URBasic` Python library for communication with Universal Robots arms.
 
 ## Usage
 
@@ -27,7 +27,7 @@ Robot control is provided via the [Rope Robotics](https://github.com/rope-roboti
 - OpenCV (`cv2`)
 - PyQt5
 - ezdxf
-- [URBasic](https://github.com/rope-robotics/URBasic) (for UR robot communication)
+- [URBasic](https://github.com/martinbjerge/ur-interface) (for UR robot communication)
 
 ## Hardware
 
@@ -41,4 +41,4 @@ MIT License
 
 ---
 
-**For more details, see the code and comments in `ScanNewCal.py`. Contributions and
+**For more details, see the code and comments in `Main.py`. Contributions and
